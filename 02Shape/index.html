@@ -36,7 +36,8 @@
       q="7" 
       radius="5" 
       radius-tubular="0.1"
-      position="3 0 -13">
+      position="3 0 -13"
+      shadow>
       </a-torus-knot>
 
       <a-plane 
@@ -45,6 +46,11 @@
       width="2000"
       rotation="-90 0 0">
       </a-plane>
+
+      <a-entity 
+      light="type:directional; castShadow:true;" 
+      position="1 1 1">
+      </a-entity>
 
     </a-scene>
   </body>
